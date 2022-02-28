@@ -13,10 +13,14 @@ if a == 'si':
         i+=1
         productos = input('Dime el producto: ')
         precio = float(input('Dime el precio del producto: ')) #error a la hora de transforma a float, no se que ocurre...
-        txt.write(productos) #no obtiene más de un argumento y yo necesito escribir 3 en el .txt, tratare de cambiar de metodo.
-        
+        lista_de_precios = list(precio)#esto deberia guardar todos los valores puestos en precio para depués sumarlos, aún no se como hacerlo
+        txt.write(f'{productos}...............') #no obtiene más de un argumento y yo necesito escribir 3 en el .txt, tratare de cambiar de metodo.
+        txt.write(f'{precio}...............')
+        txt.write(f'Articulo número {i}\n')
+
         if productos == 'Termine' 'termine':
             txt.close()
+            
             break
 
 if a == 'no':
