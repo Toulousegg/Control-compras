@@ -12,7 +12,7 @@ if a == 'si':
     for answer in b:
         i+=1
         productos = input('Dime el producto: ')
-        precio = int(input('Dime el precio del producto: '))
+        precio = float(input('Dime el precio del producto: '))
         txt.write(productos, precio, i)
         
         if productos == 'Termine' 'termine':
