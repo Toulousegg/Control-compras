@@ -27,4 +27,4 @@ if a == 'no':
     quit()
 
 else:
-    print('Que')
+    print('Que so')
