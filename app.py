@@ -12,8 +12,8 @@ if a == 'si':
     for answer in b:
         i+=1
         productos = input('Dime el producto: ')
-        precio = float(input('Dime el precio del producto: '))
-        txt.write(productos, precio, i)
+        precio = float(input('Dime el precio del producto: ')) #error a la hora de transforma a float, no se que ocurre...
+        txt.write(productos) #no obtiene más de un argumento y yo necesito escribir 3 en el .txt, tratare de cambiar de metodo.
         
         if productos == 'Termine' 'termine':
             txt.close()
@@ -25,5 +25,3 @@ if a == 'no':
 
 else:
     print('Que')
-    #ola de nuevo
-    #ola JostinCC, bienvenido uu
