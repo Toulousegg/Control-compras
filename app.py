@@ -7,9 +7,9 @@ d = datetime.datetime.now().strftime('%d-%m_%H-%M')
 i = 0
 
 if a == 'si':
-    txt = open(f'Compras del {format(d)}', 'w')
+    txt = open(f'Compras del {format(d)}.txt', 'w')
     txt.write('Producto            Precio            Numero de productos comprados\n\n')
-    
+
     for answer in b:
         i+=1
         productos = input('Dime el producto: ')
