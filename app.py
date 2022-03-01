@@ -28,4 +28,4 @@ if a == 'no':
     quit()
 
 else:
-    print('Que so')
+    print('Que so rra')
