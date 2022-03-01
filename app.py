@@ -22,7 +22,6 @@ if a == 'si':
             txt.close()
             #suma de todos los valores escritos en precio para dar un total y printiarlo
             break
-
 if a == 'no':
     print('¿Tons para que me abres?, bruja.')
     quit()
