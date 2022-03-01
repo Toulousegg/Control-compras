@@ -2,7 +2,6 @@ import datetime
 
 
 a = input('¿Vas de compras?: ')
-b = a
 d = datetime.datetime.now().strftime('%d-%m_%H-%M')
 i = 0
 
@@ -10,10 +9,9 @@ if a == 'si':
     txt = open(f'Compras del {format(d)}.txt', 'w')
     txt.write('Producto            Precio            Numero de productos comprados\n\n')
 
-    for answer in b:
+    while a == 'si':
         i+=1
         productos = input('Dime el producto: ')
-
         if productos == 'termine':
             txt.close()
             #suma de todos los valores escritos en precio para dar un total y printiarlo
