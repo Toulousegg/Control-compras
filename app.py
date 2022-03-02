@@ -27,5 +27,5 @@ if a == 'no':
     print('¿Tons para que me abres?, bruja.')
     quit()
 
-#else:
-    #print('Que so rra')
+else:
+    print('Que so rra')
