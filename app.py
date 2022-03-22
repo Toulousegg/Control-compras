@@ -17,7 +17,7 @@ if a == 'si':
             #suma de todos los valores escritos en precio para dar un total y printiarlo
             break
         
-        precio = int(input('Dime el precio del producto: ')) #error a la hora de transforma a float, no se que ocurre...
+        precio = float(input('Dime el precio del producto: '))
         lista_de_precios = [precio]#esto deberia guardar todos los valores puestos en precio para después sumarlos, aún no se como hacerlo
         txt.write(f'{productos}               ')
         txt.write(f'{precio}$               ')
