@@ -4,12 +4,14 @@
 i = 0
 lista = list()
 
-for agg in lista:
+
+def agregar_contenido():
     i=+1
     numero = int(input('Dime un número: '))
     lista.append(numero)
 
     if i == 5:
-        break
+        print(lista)
 
-print (lista)
+while i <= 5:
+    agregar_contenido()
