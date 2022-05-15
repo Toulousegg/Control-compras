@@ -15,10 +15,11 @@ if a == 'si':
         productos = input('Dime el producto: ')
         
         if productos == 'termine':
-            txt.write('                    *TOTAL*')
-            txt.write(f'                      {lista_de_precios}')
+            total = sum(lista_de_precios) #la función 'sum()' suma los elementos de una lista o tupla de una forma sencilla y rápida
+            txt.write('---------------------------------------------------------\n')
+            txt.write('                    TOTAL\n')
+            txt.write(f'                      {total}')
             txt.close()
-            #suma de todos los valores escritos en precio para dar un total y printiarlo
             break
         
         precios = float(input('Dime el precio del producto: '))
