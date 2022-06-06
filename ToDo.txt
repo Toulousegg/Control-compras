@@ -1,0 +1,19 @@
+° = listo
+- = falta por hacer
+
+    ° Quitar los signos en la lista para hacer el write
+
+    ° Sumar el total
+
+        ° Cambiar el tipo de dato para poder poner al menos, dos decimales
+
+    - Hacer que cuando se ponga un signo especial (preferiblemente '*') junto al valor del producto seguido de otro número indicando
+    cuantas unidades del mismo producto llevaras, se multiplique el valor original del producto por la cantidad puesta. Ejemplo: 
+    Producto: Pollo
+    Precio: 9*3, un pollo valdría 9$ pero como voy a llevar 3 la variable 'precio' sería 9*3, ósea 27$.
+
+    - Hacer plantilla para más orden
+
+    - Cuando ya este listo en PC hacer lo necesario para que pueda ser ejecutado en movil
+
+    - Interfaz sencilla, con cuadro de dialogo y el total de la compr abajo de dicho cuadro
