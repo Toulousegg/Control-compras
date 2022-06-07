@@ -4,6 +4,8 @@ import datetime
 a = input('¿Vas de compras?: ')
 d = datetime.datetime.now().strftime('%d-%m_%H-%M')
 i = 0
+x = 1
+caracter_separador = '*'
 lista_de_precios = list()
 
 if a == 'si':
@@ -23,6 +25,16 @@ if a == 'si':
             break
         
         precios = float(input('Dime el precio del producto: '))
+        
+        if caracter_separador in precios:
+            separado = precios.split(caracter_separador)
+            n1 = lambda separado, x: [separado[i:i+x] for i in range(0, len(separado), x)] #separador de elementos dentro de listas
+            output = n1(separado, x) #acá separé los elementos pero aún no están guardados en ninguna variable diferente para poder hacer la multiplicación
+            #tengo que guardar los dos números en variables separadas para multiplicarlas
+            lista_de_precios.append(output)
+            continue
+            #la idea es separar los dos números y ponerlos en variables diferentes para después multiplicarlos y poner el total de la multiplicación en la lista de suma
+
         lista_de_precios.append(precios) #esto deberia guardar todos los valores puestos en precio para después sumarlos, aún no se como hacerlo
         txt.write(f'{productos}               ')
         txt.write(f'{precios}$               ')
