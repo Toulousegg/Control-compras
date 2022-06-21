@@ -42,12 +42,15 @@ if a == 'si':
 
         lista_de_precios.append(cantidad_total)
         txt.write(f'{productos}               ')
-        txt.write(f'{cantidad_total}$               ')
+
+        if cantidad >= 2:
+            txt.write(f'{precios}$ X {cantidad}            ')
+
+        else:
+            txt.write(f'{cantidad_total}$               ')
+
         txt.write(f'Articulo numero {i}\n')
 
 if a == 'no':
     print('¿Tons para que me abres?, bruja.')
     quit()
-
-else:
-    print('Que so rra')

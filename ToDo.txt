@@ -7,10 +7,10 @@
 
         ° Cambiar el tipo de dato para poder poner al menos, dos decimales
 
-    - Hacer que cuando se ponga un signo especial (preferiblemente '*') junto al valor del producto seguido de otro número indicando
+    ° Hacer que cuando se ponga un signo especial (preferiblemente '*') junto al valor del producto seguido de otro número indicando
     cuantas unidades del mismo producto llevaras, se multiplique el valor original del producto por la cantidad puesta. Ejemplo: 
     Producto: Pollo
-    Precio: 9*3, un pollo valdría 9$ pero como voy a llevar 3 la variable 'precio' sería 9*3, ósea 27$.
+    Precio: 9*3, un pollo valdría 9$ pero como voy a llevar 3 la variable 'precio' sería 9*3, ósea 27$. (cambió la idea)
 
     - Hacer plantilla para más orden
 
