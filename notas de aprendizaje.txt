@@ -1,0 +1,10 @@
+1.- para importar un archivo python a otro y unirlos puedes usar dos formas,
+import (nombre), o from (nombre) import *, la ultima me gustó más.
+
+2.- en el datetime se puede elegir el formato que quieres usando las iniciales:
+%d (día), %m (mes), %y (año), %H (hora), %M (minuto) y %S (segundo), se tiene que 
+unir con un guion y para separar entre día y horas se usa un guíon bajo, si no 
+quieres un elemento solo saltalo.
+
+3.- la función 'append' que viene por defecto sirve para insertar elementos dentro de 
+una lista sin problemas, para usarla: Nombre_de_lista.append(Donde_tienes_lo_que_quieres_agregar)

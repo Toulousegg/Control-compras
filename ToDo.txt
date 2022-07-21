@@ -5,7 +5,7 @@
 
     ° Sumar el total
 
-        ° Cambiar el tipo de dato para poder poner al menos, dos decimales
+    ° Cambiar el tipo de dato para poder poner al menos, dos decimales
 
     ° Hacer que cuando se ponga un signo especial (preferiblemente '*') junto al valor del producto seguido de otro número indicando
     cuantas unidades del mismo producto llevaras, se multiplique el valor original del producto por la cantidad puesta. Ejemplo: 
