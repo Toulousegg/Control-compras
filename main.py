@@ -1,5 +1,4 @@
 import datetime
-from medidor_kg import *
 
 a = input('¿Vas de compras?: ')
 d = datetime.datetime.now().strftime('%d-%m_%H-%M')
@@ -16,15 +15,19 @@ if a == 'si':
         i+=1
         productos = input('Dime el producto: ')
 
-        if productos == 'calculadora':
+        if productos == 'Calculadora':
+            
+
+        if productos == 'Medidor':
+            from medidor_kg import *
             PesoGR
             Precio_de_peso
             Producto
             Calculador_de_peso()
             lista_de_precios.append(Calculador_de_peso)
-            txt.write(f'{Producto}               \n')
-            txt.write(f'{Precio_de_peso}                 \n')
-            txt.write(f'{PesoGR} Gr.               \n')
+            txt.write(f'{Producto}               ')
+            txt.write(f'{Precio_de_peso}/{PesoGR}Gr.                 ')
+            txt.write(f'{PrecioKG}#hacer que el precio kg sea printiable                \n')
         
         if productos == 'termine':
             total = sum(lista_de_precios) #la función 'sum()' suma los elementos de una lista o tupla de una forma sencilla y rápida
