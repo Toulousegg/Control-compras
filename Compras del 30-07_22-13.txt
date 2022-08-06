@@ -1,5 +1,0 @@
-Producto            Precio            Numero de productos comprados
-
-arroz               4.99$ X 2            Articulo numero 1
-pasta parafuso               6.48$               Articulo numero 2
-coxa s/ coxa               13.42                 450 Gr.               
