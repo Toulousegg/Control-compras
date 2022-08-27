@@ -46,15 +46,6 @@ if a == 'si':
         #if cantidad == int:
         cantidad_total = cantidad*precios
 
-        if caracter_separador in precios:
-            separado = precios.split(caracter_separador)
-            n1 = lambda separado, x: [separado[i:i+x] for i in range(0, len(separado), x)] #separador de elementos dentro de listas
-            output = n1(separado, x) #acá separé los elementos pero aún no están guardados en ninguna variable diferente para poder hacer la multiplicación
-            ##tengo que guardar los dos números en variables separadas para multiplicarlas
-            lista_de_precios.append(output)
-            continue
-            #la idea es separar los dos números y ponerlos en variables diferentes para después multiplicarlos y poner el total de la multiplicación en la lista de suma
-
         lista_de_precios.append(cantidad_total)
         txt.write(f'{productos}               ')
 

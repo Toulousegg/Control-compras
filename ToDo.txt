@@ -12,8 +12,13 @@
     Producto: Pollo
     Precio: 9*3, un pollo valdría 9$ pero como voy a llevar 3 la variable 'precio' sería 9*3, ósea 27$. (cambió la idea)
 
-    - Hacer plantilla para más orden
-
-    - Cuando ya este listo en PC hacer lo necesario para que pueda ser ejecutado en movil
+    ° Cuando ya este listo en PC hacer lo necesario para que pueda ser ejecutado en movil
 
     - Interfaz sencilla, con cuadro de dialogo y el total de la compr abajo de dicho cuadro
+
+    - PRIMERA REVIEW: Primer prueba completa, nuevas ideas para mejorar la aplicación, 
+    1.- hacer archivo excel para más orden,
+    2.- Poner un codigo diferenciador a cada producto en un diccionario para poder multiplicar el valor y hacer dos preguntas o hasta una
+    3.- Poner el sub-total de la compra para poder saber cuanto tienes hasta el momento y no pasar del limite
+    4.- Hacer un menú desplegable para buscar los articulos en la lista junto a un cuadro de busqueda para buscar más fácil el producto, O en su defecto ordenarlo alfabeticamente
+    5.- APRENDE FRONT-END
