@@ -16,6 +16,9 @@ if a == 'si':
     while a == 'si':
         i+=1
         total = sum(lista_de_precios) #la función 'sum()' suma los elementos de una lista o tupla de una forma sencilla y rápida
+        
+        if i == 2:  
+            print(f'{total}')
         productos = input('Dime el producto: ')
 
         # guardar los productos en un diccionario, y si ya estan solo obtener si ID        
@@ -31,15 +34,15 @@ if a == 'si':
  
 
 
-        if productos == 'Medidor':
-            from medidor_kg import *
-            PesoGR
-            Precio_de_peso
-            Producto
-            lista_de_precios.append(PrecioKG)
-            txt.write(f'{Producto}               ')
-            txt.write(f'{Precio_de_peso}/{PesoGR}Gr.                 ')
-            txt.write(f'{PrecioKG}                \n')
+        # if productos == 'Medidor':
+        #     from medidor_kg import *
+        #     PesoGR
+        #     Precio_de_peso
+        #     Producto
+        #     lista_de_precios.append(PrecioKG)
+        #     txt.write(f'{Producto}               ')
+        #     txt.write(f'{Precio_de_peso}/{PesoGR}Gr.                 ')
+        #     txt.write(f'{PrecioKG}                \n')
         
         if productos == 'termine':
             txt.write('---------------------------------------------------------\n')
@@ -47,8 +50,6 @@ if a == 'si':
             txt.write(f'                      {total}')
             txt.close()
             break
-        
-        print(f'{total}')
 
         precios = float(input('Dime el precio del producto: '))
         
