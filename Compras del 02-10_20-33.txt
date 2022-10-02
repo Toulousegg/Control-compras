@@ -1,0 +1,4 @@
+Producto            Precio            Numero de productos comprados
+
+aroz               1.0$               Articulo numero 1
+arroz               3.0$ X 2            Articulo numero 2

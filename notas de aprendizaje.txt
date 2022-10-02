@@ -10,3 +10,5 @@ quieres un elemento solo saltalo.
 una lista sin problemas, para usarla: Nombre_de_lista.append(Donde_tienes_lo_que_quieres_agregar)
 
 4.- primer programa usando diccionarios agregando y sacando información
+
+5.- android y algunas de us funcionalidades
