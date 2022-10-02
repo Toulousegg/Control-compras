@@ -1,4 +1,6 @@
 import datetime
+from diccionario import *
+from typing import Any, Hashable, Iterable, Optional
 
 a = input('¿Vas de compras?: ')
 d = datetime.datetime.now().strftime('%d-%m_%H-%M')
@@ -13,13 +15,21 @@ if a == 'si':
 
     while a == 'si':
         i+=1
+        total = sum(lista_de_precios) #la función 'sum()' suma los elementos de una lista o tupla de una forma sencilla y rápida
         productos = input('Dime el producto: ')
 
-        # if productos == 'Calculadora':
-        #     from beneficios import *
-        #     beneficios()
-        #     txt.write(f'               {producto}')
-        #     txt.write(f'                {mult}')
+        # guardar los productos en un diccionario, y si ya estan solo obtener si ID        
+        if productos in diccionario == True:
+            
+            def buscar_dicc(it: Iterable[dict], clave: Hashable, valor: Any) -> Optional[dict]:
+                for dicc in it:
+                    if dicc[clave] == valor:
+                        return dicc
+
+                    else:
+                        diccionario.append(productos)
+ 
+
 
         if productos == 'Medidor':
             from medidor_kg import *
@@ -32,13 +42,14 @@ if a == 'si':
             txt.write(f'{PrecioKG}                \n')
         
         if productos == 'termine':
-            total = sum(lista_de_precios) #la función 'sum()' suma los elementos de una lista o tupla de una forma sencilla y rápida
             txt.write('---------------------------------------------------------\n')
             txt.write('                    TOTAL\n')
             txt.write(f'                      {total}')
             txt.close()
             break
         
+        print(f'{total}')
+
         precios = float(input('Dime el precio del producto: '))
         
         cantidad = int(input('¿Cuantos articulos vas a llevar?:'))

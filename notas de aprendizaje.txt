@@ -8,3 +8,5 @@ quieres un elemento solo saltalo.
 
 3.- la función 'append' que viene por defecto sirve para insertar elementos dentro de 
 una lista sin problemas, para usarla: Nombre_de_lista.append(Donde_tienes_lo_que_quieres_agregar)
+
+4.- primer programa usando diccionarios agregando y sacando información
