@@ -22,17 +22,19 @@ if a == 'si':
         productos = input('Dime el producto: ')
 
         # guardar los productos en un diccionario, y si ya estan solo obtener si ID        
-        if productos in diccionario == True:
+        # if productos in diccionario == True:
             
-            def buscar_dicc(it: Iterable[dict], clave: Hashable, valor: Any) -> Optional[dict]:
-                for dicc in it:
-                    if dicc[clave] == valor:
-                        return dicc
+        #     def buscar_dicc(it: Iterable[dict], clave: Hashable, valor: Any) -> Optional[dict]:
+        #         for dicc in it:
+        #             if dicc[clave] == valor:
+        #                 return dicc
 
-                    else:
-                        diccionario.append(productos)
- 
+        #             else:
+        #                 diccionario.append(productos)
 
+        # agregar una funcion que permita verificar el ID del producto mencionado
+        # y si no esta el producto agregarlo y asignarle un ID de forma automatica por un if(?
+        # para poder multiplicarlo sin necesidad de hacer 3 preguntas
 
         # if productos == 'Medidor':
         #     from medidor_kg import *
