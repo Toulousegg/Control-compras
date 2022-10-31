@@ -21,6 +21,10 @@ if a == 'si':
             print(f'{total}')
         productos = input('Dime el producto: ')
 
+        resultado = diccionario.get(productos, 'Este producto no existe en el registro, añadelo')
+        ID = diccionario[productos]
+        
+
         # guardar los productos en un diccionario, y si ya estan solo obtener si ID        
         # if productos in diccionario == True:
             
@@ -35,16 +39,6 @@ if a == 'si':
         # agregar una funcion que permita verificar el ID del producto mencionado
         # y si no esta el producto agregarlo y asignarle un ID de forma automatica por un if(?
         # para poder multiplicarlo sin necesidad de hacer 3 preguntas
-
-        # if productos == 'Medidor':
-        #     from medidor_kg import *
-        #     PesoGR
-        #     Precio_de_peso
-        #     Producto
-        #     lista_de_precios.append(PrecioKG)
-        #     txt.write(f'{Producto}               ')
-        #     txt.write(f'{Precio_de_peso}/{PesoGR}Gr.                 ')
-        #     txt.write(f'{PrecioKG}                \n')
         
         if productos == 'termine':
             txt.write('---------------------------------------------------------\n')

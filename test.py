@@ -4,9 +4,20 @@
 # dos = float(input('dime otro: '))
 
 # print(uno - dos)
+from distutils.log import info
 from diccionario import *
 
 productos = input('Dime algo: ')
 
-resultado = diccionario.get(productos, 'No esta, agregalo')
-print(resultado)
+# resultado = diccionario.has_key(productos) FAIL
+
+# if resultado == True:
+#     ID = diccionario(productos)
+#     print(ID)
+
+# else: 
+#     print('Este producto no esta')
+
+resultado = diccionario.get(productos, 'Este producto no esta')
+Info = diccionario[productos]
+print (Info)
