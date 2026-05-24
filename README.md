@@ -1,5 +1,124 @@
-**FUNCIÓN**
-Quiero que este programa registre los productos que llevamos junto al precio del mismo y creando una lista en un archivo llamado 'compras + (fecha de la compra).txt' para que podamos revisar y mantener un control de nuestros gastos y poder administrar mejor nuestro dinero, este programa debe ser ejecutado en un dispositivo movil.
+# 🛒 Lista de Compras App
 
-**PROCEDIMIENTO**
-Este programa se ejecutará directamente desde terminal ya que todavía no se nada de desarrollo Front-End (aunque posiblemente termine pidiendo ayuda a alguien para que me ayude a completar la interfaz), una vez ejecutado el code tendrá que ir preguntando una y otra vez cual es el producto que quieres y cual es su precio con dos 'inputs()' mientras va a ir sumando el total de lo que llevas por el momento con un print('') y aparte escribiendo en el archivo .txt todos los articulos, cuando se terminen las compras el usuario tendrá que escribir 'Termine' para cerrar el programa y mostrar con un print todos los productos, el total y la cantidad de productos comprados.
+Una aplicación sencilla hecha con Python + Kivy hecha para mis padres para registrar productos,
+calcular totales automáticamente y generar tickets `.txt`
+con formato organizado.
+
+---
+
+# ✨ Características
+
+- ✅ Interfaz gráfica moderna
+- ✅ Agregar productos fácilmente
+- ✅ Cálculo automático de subtotales
+- ✅ Cálculo del total general
+- ✅ Generación automática de archivos `.txt`
+- ✅ Formato alineado tipo ticket/tablas
+- ✅ Scroll para listas largas
+- ✅ Compatible con Windows/Linux/Android
+
+---
+
+# 🧠 Tecnologías usadas
+
+- Python 3
+- Kivy
+
+---
+
+# 📦 Instalación
+
+## 1. Clonar repositorio
+
+git clone https://github.com/toulousegg/control-compras.git
+
+## 2. Entrar a la carpeta
+
+cd control-compras
+
+## 3. Instalar dependencias
+
+pip install -r requirements.txt
+
+---
+
+# ▶️ Ejecutar aplicación
+
+python main.py
+
+---
+
+# 🛠️ Cómo funciona
+
+1. Escribes:
+   - Producto
+   - Precio
+   - Cantidad
+
+2. Presionas:
+
+   Agregar Producto
+
+3. La aplicación:
+   - Calcula subtotal
+   - Actualiza total
+   - Muestra producto en pantalla
+
+4. Cuando terminas:
+
+   Terminar Compra
+
+5. Se genera automáticamente un archivo:
+
+   Compras_23-05-24_21-30.txt
+
+---
+
+# 📸 Ejemplo de salida
+
+Producto                 Precio              Cantidad
+------------------------------------------------------------
+pasta                    $30.00 x 2          Articulo numero 1
+arroz                    $1.99 x 302         Articulo numero 2
+------------------------------------------------------------
+
+                              TOTAL  $706.98
+
+---
+
+# 📁 Estructura del proyecto
+
+📦 lista-compras-kivy
+ ┣ 📜 main.py
+ ┣ 📜 README.txt
+ ┗ 📜 Compras_xx-xx-xx.txt
+
+---
+
+# 🔥 Futuras mejoras
+
+- [ ] Exportar PDF
+- [ ] Tema oscuro
+- [ ] Historial de compras
+- [ ] Base de datos SQLite
+- [ ] Buscar productos
+- [ ] Editar productos
+- [ ] Estadísticas de gastos
+
+---
+
+# 🩷 Autor
+
+Franklin Mogollon.
+
+"Hecho para practicar interfaces gráficas y manejo de archivos."
+
+---
+
+# ⭐ Extra
+
+Si te gustó el proyecto:
+- Dale estrella ⭐
+- Compártelo 🚀
+- Modifícalo 🧠
+- Aprende de él 💻
