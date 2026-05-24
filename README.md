@@ -3,6 +3,7 @@
 Una aplicación sencilla hecha con Python + Kivy hecha para mis padres para registrar productos,
 calcular totales automáticamente y generar tickets `.txt`
 con formato organizado.
+Pensada para celulares
 
 ---
 
